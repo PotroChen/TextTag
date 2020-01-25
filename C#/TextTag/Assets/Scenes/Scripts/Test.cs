@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
+    public TextTagFactory textTagFactory;
     public GameObject Target;
-    public TextTag TextTag;
+    public int typeId;
     public Vector2 offset;
     public Transform UIRoot;
 
@@ -23,7 +24,7 @@ public class Test : MonoBehaviour
 
     public void Trigger()
     {
-        TextTag textTagInstance = Object.Instantiate(TextTag);
+        TextTag textTagInstance = textTagFactory.Get(typeId);
         textTagInstance.transform.SetParent(UIRoot);
         textTagInstance.StartAnimation(Target, offset, "YOHO~", Camera.main);
     }

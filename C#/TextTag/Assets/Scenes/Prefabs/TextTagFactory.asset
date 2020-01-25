@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3688d03adc7b3234588f54e56cc01c48, type: 3}
+  m_Name: TextTagFactory
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 535920775115133955, guid: 261ab623458999147a3ae6d3f55b0cc7, type: 3}
