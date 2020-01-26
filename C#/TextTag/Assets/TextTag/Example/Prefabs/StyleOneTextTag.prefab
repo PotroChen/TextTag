@@ -204,5 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23f318fe9c7a1fa44aeb3eb43fd383fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  factory: {fileID: 0}
   duration: 2
   upDistance: 100
+  targetAlpha: 0

@@ -8,6 +8,11 @@ public class TextTagFactory : ScriptableObject
     [SerializeField]
     private TextTag[] prefabs;
 
+    public void Init()
+    {
+
+    }
+
     public TextTag Get(int typeIndex)
     {
         TextTag textTagInstance = Object.Instantiate(prefabs[typeIndex]);
@@ -18,5 +23,10 @@ public class TextTagFactory : ScriptableObject
     public void Reclaim(TextTag textTag)
     {
         Destroy(textTag.gameObject);
+    }
+
+    public void Dispose()
+    {
+
     }
 }

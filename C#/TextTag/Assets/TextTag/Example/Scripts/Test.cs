@@ -10,6 +10,11 @@ public class Test : MonoBehaviour
     public Vector2 offset;
     public Transform UIRoot;
 
+    void Awake()
+    {
+        textTagFactory.Init();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +25,11 @@ public class Test : MonoBehaviour
     void Update()
     {
 
+    }
+
+    void OnDestroy()
+    {
+        textTagFactory.Dispose();
     }
 
     public void Trigger()

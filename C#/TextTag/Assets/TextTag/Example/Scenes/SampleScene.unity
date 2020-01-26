@@ -578,8 +578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e634d1fcc279bc84db089338076a4c68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textTagFactory: {fileID: 11400000, guid: 1fc1612fe9c077d42a62c10a0d192c10, type: 2}
   Target: {fileID: 1323829452}
-  TextTag: {fileID: 535920775115133955, guid: 261ab623458999147a3ae6d3f55b0cc7, type: 3}
+  typeId: 0
   offset: {x: 0, y: 0}
   UIRoot: {fileID: 667918835}
 --- !u!4 &1337107964
